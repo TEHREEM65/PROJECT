@@ -10,7 +10,6 @@ from Bio.PDB import PDBParser
 from Bio.PDB.PDBExceptions import PDBConstructionWarning
 from Bio.SeqUtils import ProtParam
 
-# Suppress specific warning
 warnings.simplefilter('ignore', PDBConstructionWarning)
 
 
